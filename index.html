@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA IMC</h1>
+    </header>
+    <main>
+        <div class="card">
+                <label for="txtAltura" class="name-label">ALTURA</label>
+                <input type="number" id="txtAltura" class="name-input" placeholder="Digite sua altura em cm. Ex: 182" required>
+                <label for="txtPeso" class="name-label">PESO</label>
+                <input type="number" id="txtPeso" class="name-input" placeholder="Digite seu peso em Kg. Ex: 70,5" required>
+            <div class="buttons">
+                <input type="button" name="btnLimpar" value="LIMPAR" class="btn-limpar" onclick="limpar()">
+                <input type="button" name="btnCalcular" value="CALCULAR" class="btn-confirm" onclick="calcular()">
+            </div>
+        </div>
+        <div id="res">
+            
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Mikael Lorran</p>
+    </footer>
+</body>
+</html>
